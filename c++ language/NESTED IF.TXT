@@ -1,0 +1,134 @@
+A nested if statement is an if statement inside another if statement. It allows you to perform further checks inside an already existing condition. Here's an example in Python, but the concept applies to most programming languages.
+
+Basic Syntax:
+python
+Copy code
+if condition1:
+    # Executes if condition1 is true
+    if condition2:
+        # Executes if both condition1 and condition2 are true
+        print("Both conditions are true")
+    else:
+        # Executes if condition1 is true but condition2 is false
+        print("Condition1 is true but condition2 is false")
+else:
+    # Executes if condition1 is false
+    print("Condition1 is false")
+Example:
+Let's say you want to check if a student passed an exam and also if they scored an A grade:
+
+python
+Copy code
+score = 85
+
+if score >= 50:
+    print("You passed the exam!")
+    if score >= 80:
+        print("You scored an A!")
+    else:
+        print("You did not score an A, but you passed.")
+else:
+    print("You failed the exam.")
+Explanation:
+
+If score is greater than or equal to 50, the program first prints "You passed the exam!"
+Then, it checks if the score is also greater than or equal to 80:
+If true, it prints "You scored an A!"
+If false, it prints "You did not score an A, but you passed."
+If the score is below 50, it skips the nested part and directly prints "You failed the exam."
+Output for Different Scores:
+If score = 85:
+css
+Copy code
+You passed the exam!
+You scored an A!
+If score = 70:
+css
+Copy code
+You passed the exam!
+You did not score an A, but you passed.
+If score = 45:
+Copy code
+You failed the exam.
+Nested if statements are helpful when you need to make multiple conditions dependent on each other.
+
+
+
+
+
+
+
+You said:
+for c++
+ChatGPT said:
+ChatGPT
+In C++, a nested if statement works similarly to other programming languages. It means placing an if statement inside another if block to perform further checks when a condition is met.
+
+Basic Syntax:
+cpp
+Copy code
+if (condition1) {
+    // Executes if condition1 is true
+    if (condition2) {
+        // Executes if both condition1 and condition2 are true
+        cout << "Both conditions are true" << endl;
+    } else {
+        // Executes if condition1 is true but condition2 is false
+        cout << "Condition1 is true but condition2 is false" << endl;
+    }
+} else {
+    // Executes if condition1 is false
+    cout << "Condition1 is false" << endl;
+}
+Example:
+Let's say you want to check if a student's score is enough to pass the exam and if it qualifies for an A grade:
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main() {
+    int score = 85;
+
+    if (score >= 50) {
+        cout << "You passed the exam!" << endl;
+        if (score >= 80) {
+            cout << "You scored an A!" << endl;
+        } else {
+            cout << "You did not score an A, but you passed." << endl;
+        }
+    } else {
+        cout << "You failed the exam." << endl;
+    }
+
+    return 0;
+}
+Explanation:
+
+If score is greater than or equal to 50, the program prints "You passed the exam!".
+It then checks if score is greater than or equal to 80:
+If true, it prints "You scored an A!".
+If false, it prints "You did not score an A, but you passed.".
+If score is less than 50, it skips the nested if and prints "You failed the exam.".
+Output for Different Scores:
+If score = 85:
+css
+Copy code
+You passed the exam!
+You scored an A!
+If score = 70:
+css
+Copy code
+You passed the exam!
+You did not score an A, but you passed.
+If score = 45:
+Copy code
+You failed the exam.
+Nested if statements in C++ are powerful when you need to perform multiple levels of condition checks, ensuring that each condition is only evaluated if the preceding one is met.
+
+
+
+
+
+

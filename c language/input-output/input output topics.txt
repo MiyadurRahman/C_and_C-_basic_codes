@@ -1,0 +1,15 @@
+2. Input-Output
+5.8 কমেন্টস সি প্রোগ্রাম এবং এস্কেপ সিকুয়েন্স
+5.9 Comments and Escape sequence
+5.10 Keyword, variable, data type-1
+5.11 Keyword, Variable, data type-2
+(Declaring and printing int, float, double, char value, decimal point formatting)
+5.12 scanf() এ আরও কিছু ব্যবহার C programming Bangla Tutorial (scanning int, float)
+5.13 C Program to Find the Size of int, float, double and char data type
+5.14 C Program to Find a Character of ASCII Value
+5.15 C Program to Find ASCII Value of a Character
+5.16 Conversion from lowercase to uppercase using C program
+5.17 Conversion from uppercase to lowercase using C program
+5.18 Conversion between decimal-Octal number by using C program
+5.19 Conversion between decimal-hexadecimal number by using C program
+

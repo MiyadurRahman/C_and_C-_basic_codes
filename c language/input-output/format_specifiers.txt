@@ -1,0 +1,9 @@
+Hole	Description	Example	Result
+%d, %i	Print any integer	printf("%d", 5)	5
+%x, %b	Print any integer in Hex or Octal format	printf("%x", 255)	ff
+%s	Print any string	printf("%s", "ABC")	ABC
+%f	Print any floating-point number	printf("%f", 1.1M)	1.100000
+%c	Print any character	printf("%c", \097)	a
+%b	Print any Boolean	printf("%b", false)	False
+%O	Print any object	printf("%O", (1, 2))	(1, 2)
+%A	Print anything	printf("%A", (1, [1]))	(1, [1])

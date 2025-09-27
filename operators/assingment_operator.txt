@@ -1,0 +1,16 @@
+Operator	Example	Equivalent To	Description
+=	a = b	a = b	Assigns the value of b to a.
++=	a += b	a = a + b	Adds b to a and assigns the result to a.
+-=	a -= b	a = a - b	Subtracts b from a and assigns the result to a.
+*=	a *= b	a = a * b	Multiplies a by b and assigns the result to a.
+/=	a /= b	a = a / b	Divides a by b and assigns the result to a.
+%=	a %= b	a = a % b	Computes the remainder of a divided by b and assigns it to a.
+&=	a &= b	a = a & b	Performs a bitwise AND between a and b, assigns result to a.
+`	=`	`a	= b`
+^=	a ^= b	a = a ^ b	Performs a bitwise XOR between a and b, assigns result to a.
+<<=	a <<= b	a = a << b	Shifts a's bits left by b positions.
+>>=	a >>= b	a = a >> b	Shifts a's bits right by b positions.
+Key Points
+The assignment operator = is used for simple value assignment.
+Compound assignment operators (+=, -= etc.) are shorthand for performing an operation and assignment in one step.
+Using these operators can make code more concise and, in some cases, easier to read.

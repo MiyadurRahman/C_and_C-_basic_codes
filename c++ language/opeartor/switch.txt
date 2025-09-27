@@ -1,0 +1,41 @@
+The switch statement in C++ is used for selecting one of many code blocks to be executed. It’s particularly useful when you have multiple conditions that need to be checked against a single variable. Here’s the basic syntax:
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number = 2;
+
+    switch (number) {
+        case 1:
+            cout << "Number is 1" << endl;
+            break;
+        case 2:
+            cout << "Number is 2" << endl;
+            break;
+        case 3:
+            cout << "Number is 3" << endl;
+            break;
+        default:
+            cout << "Number is not 1, 2, or 3" << endl;
+    }
+
+    return 0;
+}
+Explanation:
+switch keyword: Checks the value of the variable (number in this case).
+case labels: Each case specifies a potential value that the variable might have. If number equals 2, the code inside case 2: is executed.
+break statement: Prevents the execution from falling through to the next case. If omitted, C++ will continue to execute the next case even if it doesn't match.
+default case: Executes if none of the case values match the variable. This part is optional but often used as a fallback.
+In the above example, since number is 2, the output will be:
+
+csharp
+Copy code
+Number is 2
+
+
+
+
+

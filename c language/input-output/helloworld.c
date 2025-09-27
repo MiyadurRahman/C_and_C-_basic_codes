@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Print Hello, World! to the console
+    printf("hello,world!\n");
+    printf("welcome to the world\n");
+    getchar(); // Return 0 indicates successful execution
+}
+//Header File	Purpose	Functions Declared
+//stdio.h	Used for standard input and output (I/O) operations.	printf(), scanf(), getchar(), putchar(), gets(), puts(), fopen(), fclose(), fputc(), fgetc(), feof()
+//conio.h	Contains declaration for console I/O functions.	clrscr(), getch(), exit()
+//ctype.h	Used for character handling or testing characters.	isupper(), islower(), isalpha()
+// math.h	Declares mathematical functions and macros.	pow(), sqrt(), cos(), tan(), sin(), log()
+//stdlib.h	Used for number conversions, memory management, and storage allocations.	rand(), srand()
+// string.h	Used for manipulating strings.	strlen(), strcpy(), strcmp(), strcat(), strlwr(), strupr(), strrev()
+// time.h	Used for manipulating time and date.	-
+// This table highlights the purpose of each header file along with the key functions they declare.

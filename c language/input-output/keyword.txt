@@ -1,0 +1,13 @@
+কীওয়ার্ড (Keyword):
+
+কীওয়ার্ড: এমন কিছু Reserved Word বা সংরক্ষিত শব্দ যা একটি নির্দিষ্ট অর্থ বহন করে এবং প্রোগ্রামে একটি নির্দিষ্ট কার্যসম্পাদন করে।
+সি প্রোগ্রামে ৩২ টি মত কীওয়ার্ড রয়েছে।
+
+auto	double	int	struct
+break	else	long	switch
+case	enum	register	typedef
+char	extern	return	union
+const	float	short	unsigned
+continue	for	signed	void
+default	goto	sizeof	volatile
+do	if	static	while

@@ -1,0 +1,41 @@
+Area of Different Shapes:
+Triangle
+
+Area = ½ × base × height
+b = base
+h = vertical height
+Rectangle
+
+Area = width × height
+w = width
+h = height
+Trapezoid (US) / Trapezium (UK)
+
+Area = ½ × (a + b) × h
+a and b = lengths of parallel sides
+h = vertical height
+Ellipse
+
+Area = π × a × b
+a and b = lengths of semi-major and semi-minor axes
+Square
+
+Area = a²
+a = length of a side
+Parallelogram
+
+Area = base × height
+b = base
+h = vertical height
+Circle
+
+Area = π × r²
+Circumference = 2 × π × r
+r = radius
+Sector
+
+Area = ½ × r² × θ
+r = radius
+θ = angle in radians
+Note:
+h is at right angles to b.

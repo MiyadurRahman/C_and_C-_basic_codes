@@ -1,0 +1,25 @@
+1. Single-line Comments:
+Use // to start a single-line comment.
+Everything after // on that line is ignored by the compiler.
+Example:
+
+cpp
+Copy code
+// This is a single-line comment.
+int x = 5; // This comment explains the variable x.
+2. Multi-line Comments:
+Use /* to start and */ to end a multi-line comment.
+Everything between /* and */ is ignored by the compiler.
+Example:
+
+cpp
+Copy code
+/*
+   This is a multi-line comment.
+   It can span multiple lines.
+*/
+int y = 10; // This is still a single-line comment.
+Why Use Comments?
+To explain complex sections of code.
+To temporarily disable code during debugging.
+To provide documentation for other programmers who might read the code.

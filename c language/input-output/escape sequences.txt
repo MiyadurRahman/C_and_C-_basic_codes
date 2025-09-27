@@ -1,0 +1,15 @@
+
+
+Character Escape Sequence	Meaning
+\a	Alert (Bell)
+\b	Backspace
+\f	Form Feed
+\n	Newline
+\r	Carriage Return
+\t	Horizontal Tab
+\v	Vertical Tab
+\0	Null Character
+\'	Single Quote
+\"	Double Quote
+\\	Backslash
+\?	Question Mark

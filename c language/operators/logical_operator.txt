@@ -1,0 +1,106 @@
+Logical operators are used to combine multiple conditions or expressions and return a boolean value (True or False). Here are the most common logical operators:
+
+1. AND (&& or and)
+Returns True if both conditions are true.
+In Python, and is used, whereas in other languages like C, C++, Java, && is used.
+Example:
+python
+Copy code
+condition1 = True
+condition2 = False
+result = condition1 and condition2  # result will be False
+2. OR (|| or or)
+Returns True if at least one of the conditions is true.
+In Python, or is used, while in languages like C, C++, Java, || is used.
+Example:
+python
+Copy code
+condition1 = True
+condition2 = False
+result = condition1 or condition2  # result will be True
+3. NOT (! or not)
+Reverses the boolean value of a condition.
+In Python, not is used, whereas in other languages like C, C++, Java, ! is used.
+Example:
+python
+Copy code
+condition = True
+result = not condition  # result will be False
+These operators are widely used in decision-making statements like if, while, for, etc., to control the flow of the program based on conditions.
+
+
+
+
+
+
+You said:
+with  code ex
+ChatGPT said:
+ChatGPT
+Sure! Here are examples of the logical operators with code snippets in Python:
+
+1. AND (and)
+This operator returns True only if both conditions are true.
+
+Example:
+
+python
+Copy code
+age = 25
+has_passport = True
+
+# Check if the person is over 18 AND has a passport
+if age > 18 and has_passport:
+    print("You are eligible for international travel.")
+else:
+    print("You are not eligible for international travel.")
+Output:
+
+rust
+Copy code
+You are eligible for international travel.
+Here, age > 18 is True and has_passport is also True, so the result of age > 18 and has_passport is True.
+
+2. OR (or)
+This operator returns True if at least one condition is true.
+
+Example:
+
+python
+Copy code
+is_weekend = False
+is_holiday = True
+
+# Check if today is a weekend OR a holiday
+if is_weekend or is_holiday:
+    print("You can relax today!")
+else:
+    print("It's a working day.")
+Output:
+
+Copy code
+You can relax today!
+Here, is_weekend is False, but is_holiday is True, so the result of is_weekend or is_holiday is True.
+
+3. NOT (not)
+This operator reverses the boolean value of a condition.
+
+Example:
+
+python
+Copy code
+is_raining = False
+
+# Check if it is NOT raining
+if not is_raining:
+    print("You can go for a walk outside.")
+else:
+    print("Better to stay indoors.")
+Output:
+
+css
+Copy code
+You can go for a walk outside.
+Here, not is_raining changes False to True, so the condition becomes True.
+
+These examples demonstrate how logical operators can be used to control the flow of a program based on conditions.

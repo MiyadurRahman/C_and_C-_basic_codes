@@ -1,0 +1,35 @@
+iyad
+72638432
+meyad@1234
+iyad
+018
+gmail.com
+iyad
+0110
+meayd@1234
+ "e:\c codes and note\c language\mini_project\" ; if ($?) { gcc test.c -o test } ; if ($?) { .\test }
+iyad
+01839760566
+miyad@1234
+ "e:\c codes and note\c language\mini_project\" ; if ($?) { gcc test.c -o test } ; if ($?) { .\test }
+iyad
+0188
+meyad@1234
+cd "e:\c codes and note\c language\mini_project\" ; if ($?) { gcc test.c -o test } ; if ($?) { .\test }
+cd "e:\c codes and note\c language\mini_project\" ; if ($?) { gcc test.c -o test } ; if ($?) { .\test }
+cd "e:\c codes and note\c language\mini_project\" ; if ($?) { gcc test.c -o test } ; if ($?) { .\test }
+1
+1
+
+1
+1
+
+1
+1
+1
+1
+1
+1
+1
+1
+1cd "e:\c codes and note\c language\tic_tac_toe.c

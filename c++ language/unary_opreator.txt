@@ -1,0 +1,99 @@
+In C++, unary operators operate on a single operand and include increment, decrement, negation, and more. Here's a list of the most commonly used unary operators in C++ along with examples:
+
+Common Unary Operators in C++
+Increment (++):
+
+Prefix (++a): Increments a before using its value.
+Postfix (a++): Uses the value of a first, then increments it.
+Decrement (--):
+
+Prefix (--a): Decrements a before using its value.
+Postfix (a--): Uses the value of a first, then decrements it.
+Unary Plus (+):
+
+Indicates a positive value, but it has no effect on numeric values.
+Unary Minus (-):
+
+Negates the value of a variable (makes positive numbers negative and vice versa).
+Logical NOT (!):
+
+Reverses the truth value of a boolean expression.
+Bitwise NOT (~):
+
+Inverts all bits of an integer.
+Address-of (&):
+
+Returns the memory address of a variable.
+Dereference (*):
+
+Accesses the value at the address that a pointer points to.
+Example Program Using Unary Operators
+Here's a simple C++ program that demonstrates the use of various unary operators:
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5;
+    int b = 3;
+    int c;
+
+    // Using increment operators.
+    c = ++a; // Prefix increment: c = 6, a = 6
+    cout << "Prefix increment: c = " << c << ", a = " << a << endl;
+
+    c = b++; // Postfix increment: c = 3, b = 4
+    cout << "Postfix increment: c = " << c << ", b = " << b << endl;
+
+    // Using decrement operators.
+    c = --a; // Prefix decrement: c = 5, a = 5
+    cout << "Prefix decrement: c = " << c << ", a = " << a << endl;
+
+    c = b--; // Postfix decrement: c = 4, b = 3
+    cout << "Postfix decrement: c = " << c << ", b = " << b << endl;
+
+    // Using unary minus and plus.
+    c = -a; // Unary minus: c = -5
+    cout << "Unary minus: c = " << c << endl;
+
+    c = +b; // Unary plus: c = 3
+    cout << "Unary plus: c = " << c << endl;
+
+    // Using logical NOT.
+    bool isTrue = true;
+    bool isFalse = !isTrue; // isFalse becomes false (0)
+    cout << "Logical NOT: isTrue = " << isTrue << ", isFalse = " << isFalse << endl;
+
+    // Using bitwise NOT.
+    int d = 5;    // Binary: 0000 0101
+    int e = ~d;   // Bitwise NOT: e becomes -6 (inverted bits)
+    cout << "Bitwise NOT: e = " << e << endl;
+
+    // Using address-of and dereference operators.
+    int* ptr = &a; // ptr holds the address of a.
+    cout << "Address of a: " << ptr << endl;
+    cout << "Value at address of a (dereferencing): " << *ptr << endl;
+
+    return 0;
+}
+Explanation:
+Increment/Decrement: Demonstrates both prefix (++a, --a) and postfix (a++, a--) forms.
+Unary Plus/Minus: Shows how to change the sign of a variable.
+Logical NOT (!): Useful for boolean logic.
+Bitwise NOT (~): Flips each bit of the operand.
+Address-of (&) and Dereference (*): Show how to work with pointers.
+Output:
+yaml
+Copy code
+Prefix increment: c = 6, a = 6
+Postfix increment: c = 3, b = 4
+Prefix decrement: c = 5, a = 5
+Postfix decrement: c = 4, b = 3
+Unary minus: c = -5
+Unary plus: c = 3
+Logical NOT: isTrue = 1, isFalse = 0
+Bitwise NOT: e = -6
+Address of a: 0x7ffeeab85b7c (example address)
+Value at address of a (dereferencing): 5

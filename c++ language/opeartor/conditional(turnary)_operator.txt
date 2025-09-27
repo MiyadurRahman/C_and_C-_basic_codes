@@ -1,0 +1,65 @@
+
+In C++, the conditional (ternary) operator is a shorthand way of writing an if-else statement. It is often used for simple conditional expressions. The operator uses the ? and : symbols.
+
+Syntax:
+cpp
+Copy code
+condition ? expression_if_true : expression_if_false;
+condition: The condition that is evaluated (must result in a true or false).
+expression_if_true: The value or expression that is returned if the condition is true.
+expression_if_false: The value or expression that is returned if the condition is false.
+Example:
+Here's an example to determine if a number is even or odd using the ternary operator:
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number = 5;
+    string result = (number % 2 == 0) ? "Even" : "Odd";
+    cout << "The number is " << result << endl;
+    return 0;
+}
+Explanation:
+
+(number % 2 == 0) is the condition that checks if the number is even.
+If number % 2 == 0 is true, the expression "Even" is returned.
+If number % 2 == 0 is false, the expression "Odd" is returned.
+The result is stored in the result variable, and then printed out.
+Output:
+csharp
+Copy code
+The number is Odd
+Another Example:
+Using a ternary operator to find the maximum of two numbers:
+
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20;
+    int max = (a > b) ? a : b;
+    cout << "The maximum number is " << max << endl;
+    return 0;
+}
+Explanation:
+
+The condition (a > b) checks if a is greater than b.
+If true, a is assigned to max.
+If false, b is assigned to max.
+Output:
+csharp
+Copy code
+The maximum number is 20
+Use Cases:
+Ternary operators are ideal for simple conditions where a concise expression is needed.
+They help make code more compact but can reduce readability if overused or used with complex conditions. For more complex logic, standard if-else statements are usually better.
+
+
+
+
+

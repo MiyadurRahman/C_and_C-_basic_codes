@@ -1,0 +1,14 @@
+3. Operator
+Operator, Operand, Expression C programming Bangla Tutorial
+Arithmetic Operator C programming Bangla Tutorial
+২ টি পূর্ণ সংখ্যার যোগফল নির্ণয়ের জন্য C program Practical
+৩ টি পূর্ণ সংখ্যার যোগফল ৩ দ্বারা নির্ণয়ের জন্য Algorithm, Flowchart & C program
+৩ টি পূর্ণ সংখ্যার যোগফল ৩ দ্বারা নির্ণয়ের জন্য C program practical
+ত্রিভুজের ক্ষেত্রফল নির্ণয়ের জন্য Algorithm, Flowchart & C program
+ত্রিভুজের ক্ষেত্রফল নির্ণয়ের জন্য C program (practical)
+ত্রিভুজের তিনটি বাহু দেওয়া আছে এমন ক্ষেত্রে ক্ষেত্রফল নির্ণয়ের জন্য Algo, Flowchart & C
+ত্রিভুজের তিনটি বাহু দেওয়া আছে, তার ক্ষেত্রফল নির্ণয়ের জন্য C program (practical)
+আয়তক্ষেত্রের ক্ষেত্রফল নির্ণয়ের জন্য Algorithm, Flowchart & C program
+আয়তক্ষেত্রের ক্ষেত্রফল নির্ণয়ের জন্য C program (practical)
+বৃত্তের ক্ষেত্রফল নির্ণয়ের জন্য Algorithm, Flowchart & C program
+বৃত্তের ক্ষেত্রফল নির্ণয়ের জন্য C program (practical)

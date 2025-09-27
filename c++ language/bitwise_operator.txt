@@ -1,0 +1,72 @@
+Bitwise operators are used to perform operations on individual bits of numbers. They are commonly used in low-level programming, such as device drivers, encryption, and network programming. Here’s a brief overview of the bitwise operators in C:
+
+1. Bitwise AND (&)
+Operation: Sets each bit to 1 if both bits are 1.
+Example:
+c
+Copy code
+int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+int result = a & b; // Binary: 0001 (result is 1)
+2. Bitwise OR (|)
+Operation: Sets each bit to 1 if at least one of the bits is 1.
+Example:
+c
+Copy code
+int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+int result = a | b; // Binary: 0111 (result is 7)
+3. Bitwise XOR (^)
+Operation: Sets each bit to 1 if only one of the bits is 1 (exclusive OR).
+Example:
+c
+Copy code
+int a = 5;  // Binary: 0101
+int b = 3;  // Binary: 0011
+int result = a ^ b; // Binary: 0110 (result is 6)
+4. Bitwise NOT (~)
+Operation: Inverts all bits (turns 1s into 0s and vice versa).
+Example:
+c
+Copy code
+int a = 5;  // Binary: 0101
+int result = ~a; // Binary: 1010 (result is -6 in two's complement representation)
+Note: The output depends on how many bits the system uses for integers (typically 32 bits), so the result appears negative due to two's complement representation.
+5. Bitwise LEFT SHIFT (<<)
+Operation: Shifts bits to the left, adding 0s from the right.
+Example:
+c
+Copy code
+int a = 5;  // Binary: 0101
+int result = a << 1; // Binary: 1010 (result is 10)
+Usage: a << n multiplies a by 2^n.
+6. Bitwise RIGHT SHIFT (>>)
+Operation: Shifts bits to the right, discarding bits on the right.
+Example:
+c
+Copy code
+int a = 5;  // Binary: 0101
+int result = a >> 1; // Binary: 0010 (result is 2)
+Usage: a >> n divides a by 2^n.
+Summary of Bitwise Operators in C
+Operator	Name	Example	Result
+&	AND	5 & 3	1
+`	`	OR	`5
+^	XOR	5 ^ 3	6
+~	NOT	~5	-6
+<<	Left Shift	5 << 1	10
+>>	Right Shift	5 >> 1	2
+Practical Use Case
+Bitwise operators are often used for tasks like:
+
+Masking: Isolating specific bits in a number.
+Setting/Clearing Bits: Turning specific bits on or off.
+Toggling Bits: Using XOR to flip bits.
+Shifting Operations: Efficiently multiplying or dividing by powers of two.
+These operators are fundamental for low-level manipulation of data and efficient computation.
+
+
+
+
+
+

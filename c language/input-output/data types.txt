@@ -1,0 +1,8 @@
+Data Type
+Variable declaration syntax:
+type var_name;
+Data Type	      Examples	               Keyword	Storage Size	Format Specifier
+Character data	'a', 's', '1'	            char	  1 byte	         %c
+Whole numbers	   125	                    int	      4 bytes	         %d
+Floating point numbers	6 decimal places	float	  4 bytes	         %f
+Double numbers	15 decimal places	        double	  8 bytes	         %lf

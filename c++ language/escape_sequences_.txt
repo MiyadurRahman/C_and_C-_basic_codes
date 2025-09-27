@@ -1,0 +1,34 @@
+
+Escape sequences in C++ are special character combinations starting with a backslash (\). They are used to represent characters that cannot be easily typed directly in a string, such as newlines, tabs, or quotation marks. Here are some commonly used escape sequences in C++:
+
+Escape Sequence	Description
+\n	Newline (moves cursor to the next line)
+\t	Horizontal tab
+\\	Backslash (\)
+\"	Double quotation mark (")
+\'	Single quotation mark (')
+\r	Carriage return
+\b	Backspace
+\f	Form feed
+\v	Vertical tab
+\0	Null character (end of a string)
+Example:
+cpp
+Copy code
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, World!\n"; // Moves to a new line after printing "Hello, World!"
+    cout << "This is a tab:\tand this is after the tab.\n";
+    cout << "Quotes: \"C++\" is fun!\n";
+    cout << "Backslash example: C:\\Program Files\\MyApp\n";
+    return 0;
+}
+In the example, \n is used to create new lines, \t to insert a tab space, \" to print double quotes, and \\ to print a backslash.
+
+
+
+
+
+

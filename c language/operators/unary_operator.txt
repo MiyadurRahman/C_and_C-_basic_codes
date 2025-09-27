@@ -1,0 +1,141 @@
+
+In C, unary operators are operators that operate on a single operand. They are commonly used for incrementing, decrementing, negating, and working with pointers. Here’s an overview of the most commonly used unary operators in C:
+
+Common Unary Operators
+Increment (++):
+
+Increases the value of a variable by 1.
+There are two forms:
+Prefix Increment (++a): Increments a before using its value.
+Postfix Increment (a++): Uses the value of a first, then increments it.
+c
+Copy code
+int a = 5;
+printf("%d\n", ++a); // Outputs 6 (a is incremented before being used).
+a = 5;
+printf("%d\n", a++); // Outputs 5 (a is used before being incremented).
+printf("%d\n", a);   // Outputs 6 (a is now incremented).
+Decrement (--):
+
+Decreases the value of a variable by 1.
+There are two forms:
+Prefix Decrement (--a): Decrements a before using its value.
+Postfix Decrement (a--): Uses the value of a first, then decrements it.
+c
+Copy code
+int a = 5;
+printf("%d\n", --a); // Outputs 4 (a is decremented before being used).
+a = 5;
+printf("%d\n", a--); // Outputs 5 (a is used before being decremented).
+printf("%d\n", a);   // Outputs 4 (a is now decremented).
+Unary Plus (+):
+
+Indicates a positive value, but it has no effect on numeric values.
+Rarely used explicitly.
+c
+Copy code
+int a = 5;
+int b = +a; // b is 5
+Unary Minus (-):
+
+Negates the value of a variable (makes positive numbers negative and vice versa).
+c
+Copy code
+int a = 5;
+int b = -a; // b is -5
+Logical NOT (!):
+
+Reverses the truth value of a boolean expression.
+If the operand is 0, it returns 1 (true), otherwise 0 (false).
+c
+Copy code
+int a = 0;
+int b = !a; // b is 1 because a is false (0)
+Bitwise NOT (~):
+
+Inverts all bits of an integer.
+Each 0 becomes 1 and each 1 becomes 0.
+This operation is only meaningful for integers and is often used for low-level programming.
+c
+Copy code
+int a = 5; // Binary: 00000000 00000000 00000000 00000101
+int b = ~a; // b is -6 (Binary: 11111111 11111111 11111111 11111010)
+Address-of (&):
+
+Returns the memory address of a variable.
+It is often used with pointers.
+c
+Copy code
+int a = 5;
+int *ptr = &a; // ptr now holds the memory address of a.
+Dereference (*):
+
+Accesses the value at the address that a pointer points to.
+It is used to dereference pointers.
+c
+Copy code
+int a = 5;
+int *ptr = &a; // ptr holds the address of a.
+int b = *ptr;  // b gets the value of a (5).
+Example Program Using Unary Operators
+Here's a simple program that demonstrates the use of some unary operators:
+
+c
+Copy code
+#include <stdio.h>
+
+int main() {
+    int a = 5;
+    int b = 3;
+    int c;
+
+    // Using increment operators.
+    c = ++a; // Prefix increment: c = 6, a = 6
+    printf("Prefix increment: c = %d, a = %d\n", c, a);
+
+    c = b++; // Postfix increment: c = 3, b = 4
+    printf("Postfix increment: c = %d, b = %d\n", c, b);
+
+    // Using decrement operators.
+    c = --a; // Prefix decrement: c = 5, a = 5
+    printf("Prefix decrement: c = %d, a = %d\n", c, a);
+
+    c = b--; // Postfix decrement: c = 4, b = 3
+    printf("Postfix decrement: c = %d, b = %d\n", c, b);
+
+    // Using unary minus and plus.
+    c = -a; // Unary minus: c = -5
+    printf("Unary minus: c = %d\n", c);
+
+    c = +b; // Unary plus: c = 3
+    printf("Unary plus: c = %d\n", c);
+
+    // Using logical NOT.
+    int isTrue = 1;
+    int isFalse = !isTrue; // isFalse becomes 0
+    printf("Logical NOT: isTrue = %d, isFalse = %d\n", isTrue, isFalse);
+
+    // Using bitwise NOT.
+    int d = 5;    // Binary: 0000 0101
+    int e = ~d;   // Bitwise NOT: e becomes -6 (inverted bits)
+    printf("Bitwise NOT: e = %d\n", e);
+
+    return 0;
+}
+Output:
+yaml
+Copy code
+Prefix increment: c = 6, a = 6
+Postfix increment: c = 3, b = 4
+Prefix decrement: c = 5, a = 5
+Postfix decrement: c = 4, b = 3
+Unary minus: c = -5
+Unary plus: c = 3
+Logical NOT: isTrue = 1, isFalse = 0
+Bitwise NOT: e = -6
+Key Points
+Unary increment and decrement are frequently used in loops and counters.
+Unary minus is used to change the sign of a number.
+Address-of (&) and dereference (*) are crucial for working with pointers in C.
+Logical NOT (!) is used for conditions and Boolean logic.
+Bitwise NOT (~) is used for low-level bit manipulation.
