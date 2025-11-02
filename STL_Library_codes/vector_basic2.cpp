@@ -17,6 +17,12 @@ vec.push_back({4,5,6});
 vec.push_back({7,8,9});
 vec.pop_back();// removes last row from the vector of vectors
 
+//removing last column from each row
+for(int i=0;i<vec.size();i++){
+    vec[i].pop_back();// removes last element from each row
+    
+    cout<<endl;
+}
 //vector<vector<int>>vec{{1,2,3},{1,2,3},{1,2,3}};//another way to insert elements in vector of vectors
 
 for(int i=0;i<vec.size();i++){
